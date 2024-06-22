@@ -1,0 +1,36 @@
+Concurrent programming:
+Both mutexes and semaphores are used as synchronization primitives, used to control access to the shared resources.
+But have different characteristics and usecases.
+
+Mutex: (Mutual Exclusion)
+Allows only one thread to access a resource at a time.
+One thread only can own the mutex at any given time
+
+Ownership: A mutex is lock which is acquired by one therad and must be unlocked by the same thread.
+
+Prevent: Race Condition and deadlocks
+
+Use Cases:
+Typically used to protect critical section where a shared resource(variable, file) is accessed or modified.\
+
+Mutexes are binary: Locked and unlocked
+
+Semaphores:
+Maintains a counter. It can allow multiple threads to access a limited number of instances of the resource.
+
+Counting is the key characteristic.
+
+Binary Semaphores: Lock and Unlock without ownership constraints.
+
+Prevent: Race conditions and deadlocks
+
+Usecase: Specific number of identical resources(files, etc) are available, semaphores limits the number of concurrent connections to the resource.
+
+Summary:
+Mutex: mutual exclusion is ensured.
+Only the threads can hold a mutex at a time.
+Used to protect the critical sections
+
+Semaphore:
+Manages a count of available resources
+Multiple threads can access a limited number of resources simultaneously.

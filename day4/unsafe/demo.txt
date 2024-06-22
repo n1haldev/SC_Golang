@@ -1,0 +1,23 @@
+I. Create different arrays or slices of different data types. 
+    1. check if slices are equal using deepequal in reflection
+    2. Sizeof any slices
+    3. Number of elements in the array or slices
+    4. reverse the given array 
+
+II. Create a structure of PES with the following data vals: 
+    a. Courses offered
+    b. Rank
+    c. Location
+
+    1. Access the structure members
+    2. Find the size of structure
+    3. Perform Alignof and Offsetof the struct members
+
+III. Create an embedded structure - Company{name, location}
+    1. Access the embedded structure members.
+    2. Access structure members
+    3. Accessing structure members randomly.
+    4. Find the structure members are equal or not (deepequal)
+    
+IV. Create a string "Go programming" and a string "GoLang".
+    1. Perform copy and find valueOf (reflection methods)

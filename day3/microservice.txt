@@ -1,0 +1,25 @@
+A big service is broken down into a small number of independent services.
+Each service should do one particular task or business logic.
+
+Communication happens with other services with the help of APIs.
+
+1. Small and focused.
+2. Independent deployment
+3. Interaction is thru APIs.
+
+Advantages:
+- Increased Scalability.
+- Improved Fault Tolerance.
+- Faster deployment.
+- Different tools and different lang for different services.
+
+For example:
+User Service: Manages the user account(sign up management)
+
+Product services: Product information, Inventory, Pricing.
+
+Notification Service: Email, SMS 
+
+Shopping Cart Service: Managing the items in the cart, cart data persistence etc.
+
+Content Management Services: Blogs, Post, Images.
